@@ -1,0 +1,16 @@
+.own-nav {
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+@media (min-width: 768px) {
+  .own-nav {
+    display: flex;
+  }
+}
